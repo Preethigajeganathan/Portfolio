@@ -10,6 +10,23 @@ A modern, responsive portfolio website built with **React**, **Vite**, and **Tai
 
 ---
 
+## 📸 Preview
+
+> Add a screenshot of your portfolio here.
+
+```text
+public/
+└── preview.png
+```
+
+Then use:
+
+```markdown
+![Portfolio Preview](public/preview.png)
+```
+
+---
+
 ## ✨ Features
 
 - 📱 Fully Responsive Design

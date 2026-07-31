@@ -12,14 +12,6 @@ A modern, responsive portfolio website built with **React**, **Vite**, and **Tai
 
 ## 📸 Preview
 
-> Add a screenshot of your portfolio here.
-
-```text
-public/
-└── preview.png
-```
-
-Then use:
 
 <p align="center">
   <img src="public/preview.png" alt="Portfolio Preview" width="100%">

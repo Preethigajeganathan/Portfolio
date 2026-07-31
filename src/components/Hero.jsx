@@ -10,7 +10,7 @@ import {
 
 import { FaAnglesDown } from "react-icons/fa6";
 
-import profile from "../assets/profile.png";
+import profile from "../assets/Profile.png";
 import resume from "../assets/resume.pdf";
 
 

@@ -13,10 +13,7 @@ A modern, responsive portfolio website built with **React**, **Vite**, and **Tai
 ## 📸 Preview
 
 
-<p align="center">
-  <img src="public/preview.png" alt="Portfolio Preview" width="100%">
-</p>
-
+[![Portfolio Preview](public/preview.png)](https://portfolio-sigma-gules-0bonjv4nz7.vercel.app/)
 
 ---
 
@@ -104,7 +101,7 @@ portfolio/
 Clone the repository:
 
 ```bash
-git clone https://github.com/Preethigajeganathan/Portfolio
+git clone https://github.com/Preethigajeganathan/Portfolio.git
 ```
 
 Go to the project folder:

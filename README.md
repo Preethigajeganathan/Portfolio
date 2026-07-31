@@ -22,7 +22,9 @@ public/
 Then use:
 
 ```markdown
-![Portfolio Preview](public/preview.png)
+<p align="center">
+  <img src="assets/preview.png" alt="Portfolio Preview" width="100%">
+</p>
 ```
 
 ---

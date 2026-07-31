@@ -94,7 +94,7 @@ portfolio/
 Clone the repository:
 
 ```bash
-git clone https://github.com/Preethigajeganathan/portfolio.git
+git clone https://github.com/Preethigajeganathan/Portfolio
 ```
 
 Go to the project folder:

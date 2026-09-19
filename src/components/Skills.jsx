@@ -20,6 +20,8 @@ import {
   SiMongodb,
   SiMysql,
   SiPostman,
+  SiFirebase,
+  SiClerk
 } from "react-icons/si";
 
 const skillCategories = [
@@ -41,6 +43,8 @@ const skillCategories = [
       { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
       { name: "Express.js", icon: <SiExpress className="text-gray-300" /> },
       { name: "REST APIs", icon: <FaDatabase className="text-cyan-400" /> },
+      { name: "Firebase", icon: <SiFirebase className="text-yellow-400" /> },
+      { name: "Clerk", icon: <SiClerk className="text-purple-400" /> },
     ],
   },
 

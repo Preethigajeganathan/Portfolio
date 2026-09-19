@@ -1,11 +1,10 @@
 import { motion } from "framer-motion";
-import {
-  FaGithub,
-  FaExternalLinkAlt,
-} from "react-icons/fa";
+import {FaGithub, FaExternalLinkAlt} from "react-icons/fa";
 import quickbite from "../assets/quickbite.png";
 import crypto from "../assets/crypto.png";
 import vidtube from "../assets/vidtube.png";
+import quickchat from "../assets/quickchat.png";
+import netflix from "../assets/netflix.png";
 
 const projects = [
   {
@@ -37,6 +36,41 @@ const projects = [
     github: "https://github.com/Preethigajeganathan",
     live: "https://youtube-clone-bay-chi.vercel.app/",
   },
+
+  {
+    title: "QuickChat",
+    description:
+      "A real-time chat application with secure authentication, real-time messaging, online user status, profile management, and profile picture uploads.",
+    tech: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.IO",
+      "JWT",
+      "Cloudinary",
+    ],
+    image: quickchat,
+    github: "https://github.com/Preethigajeganathan/QuickChat",
+    live: "https://quick-chat-app-eight.vercel.app/",
+  },
+
+  {
+    title: "Netflix Clone",
+    description:
+      "A Netflix-style movie streaming application featuring movie browsing, popular and upcoming movies, Firebase authentication, TMDB API integration, and YouTube trailer playback.",
+    tech: [
+      "React",
+      "Firebase",
+      "React Router",
+      "TMDB API",
+      "YouTube",
+      "CSS",
+    ],
+    image: netflix,
+    github: "https://github.com/Preethigajeganathan/Netflix-Clone",
+    live: "https://netflix-clone-olive-phi-83.vercel.app/",
+  },
 ];
 
 function Projects() {
@@ -50,11 +84,11 @@ function Projects() {
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: .7 }}
+          transition={{ duration: 0.7 }}
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl font-bold">
+          <h2 className="text-5xlfont-bold">
             My <span className="text-cyan-400">Projects</span>
           </h2>
 
@@ -71,7 +105,7 @@ function Projects() {
               key={project.title}
               initial={{ opacity: 0, y: 70 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * .2 }}
+              transition={{ delay: index * 0.2 }}
               viewport={{ once: true }}
               className="bg-slate-800 rounded-2xl overflow-hidden shadow-xl hover:-translate-y-3 hover:shadow-cyan-500/30 transition duration-300"
             >
@@ -145,3 +179,4 @@ function Projects() {
 }
 
 export default Projects;
+
